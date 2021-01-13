@@ -67,7 +67,7 @@ void sendMsg(){
 	Lcd4_Clear();
 	_delay_ms(1);
 	Lcd4_Set_Cursor(2,3);
-	Lcd4_Write_String("Sending");
+	Lcd4_Write_String("Messege Sending...");
 	for(int i=0;i<5;i++){
 		Lcd4_Set_Cursor(2,10);
 		_delay_ms(300);
