@@ -103,7 +103,7 @@ void doseTime(int i){
 	char chInt;
 	itoa(i,&chInt,10);
 	Lcd4_Set_Cursor(1,0);
-	Lcd4_Write_String("Type ");
+	Lcd4_Write_String("Type -:");
 	Lcd4_Write_String(chInt);
 	Lcd4_Set_Cursor(3,2);
 	Lcd4_Write_String("1.Day");
@@ -126,7 +126,7 @@ void doseTime(int i){
 void doseDay(int i){
 	int mrn,afr,ngt;
 	Lcd4_Set_Cursor(1,0);
-	Lcd4_Write_String("Day Dose");
+	Lcd4_Write_String("Day Dose -:");
 	Lcd4_Set_Cursor(3,2);
 	Lcd4_Write_String("Morning  ");
 	_delay_ms(10);
