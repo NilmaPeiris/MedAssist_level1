@@ -249,7 +249,7 @@ void setTime(){
 	
 	start = 2;
 	Lcd4_Set_Cursor(1,3);
-	Lcd4_Write_String("SET TIME");
+	Lcd4_Write_String("SET TIME -> ");
 	Lcd4_Set_Cursor(3,start);
 	
 	sc=retSec();
@@ -301,7 +301,7 @@ void setTime(){
 
 void emergNum(){
 	Lcd4_Set_Cursor(1,0);
-	Lcd4_Write_String("Enter the Mobile Number");
+	Lcd4_Write_String("Enter the Mobile Number ->");
 	Lcd4_Set_Cursor(3,1);
 	Lcd4_Write_Char('+');
 	Lcd4_Write_String(phoneNumber);
