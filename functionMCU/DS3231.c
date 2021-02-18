@@ -77,6 +77,10 @@ int retSec(){
 	return second;	
 }
 
+int retSec(){
+	return second;	
+}
+
 int retMin(){
 	return minute;
 }
